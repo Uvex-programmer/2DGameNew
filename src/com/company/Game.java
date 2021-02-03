@@ -78,6 +78,7 @@ public class Game extends JFrame implements Runnable
 		//Player Animated Sprites
 		AnimatedSprite playerAnimations = new AnimatedSprite(playerSheet, 5);
 
+		
 		//Load Tiles
 		tiles = new Tiles(new File("C:\\Users\\nossn\\IdeaProjects\\untitled2\\src\\com\\company\\Tiles.txt"),sheet);
 
